@@ -8,8 +8,8 @@ from telegram.ext import Application, CommandHandler, CallbackContext, JobQueue
 # Allow nested event loops for Jupyter Notebooks or environments like it
 nest_asyncio.apply()
 # Replace this with your actual bot token
-TOKEN = '7728058789:AAEDfnpXXkiYxKPnlikUeqEoK38CeX6E168'
-CHANNEL_USERNAME = '@MyGreatMinds'  # Replace with your channel username
+TOKEN = 'YOUR_TOKEN'
+CHANNEL_USERNAME = '@YOUR_USERNAME'  # Replace with your channel username
 
 
 quotes = [
